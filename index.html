@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>徐霞客游记</title>
+	</head>
+	<body>
+		<style type="text/css">
+	 a{
+	 	position: relative;
+      	left: 800px;
+      	top: -600px;
+      	opacity: 0;
+      	animation:moveout4 15s ease forwards;
+      	font-size: 30px;
+      	
+	 }
+	 a:hover{
+	    color:#808080;
+      	text-decoration:underline;
+      }
+      
+      
+      #p1{
+      	text-align:center;
+               margin:0px auto;
+               display: flex;
+               width:425px;
+			   height: 825px;
+      }
+      #p2{
+      	position:relative; 
+      	
+      	animation:moveout2 15s ease forwards;
+      	opacity: 100%;
+      }
+      #p3{
+      	position:relative; 
+      	
+      	animation:moveout3 15s ease forwards;
+      	opacity: 100%;
+      }
+      #p4{
+      	position:relative; 
+      	left: 600px;
+      	top: -1000px;
+      	animation:moveout1 8s ease forwards;
+      	opacity: 0;
+      }
+      @keyframes moveout1{
+      	0% {opacity: 0; }
+	20%{opacity: 0.1;}
+	50% {opacity: 0.4; }
+	70%{opacity: 0.6;}
+	100% {opacity: 1;}
+ }
+     @keyframes moveout2{
+     	0%{transform:translate(855px,-270px);}
+     	40%{transform:translate(740px,-340px);}
+     	50%{transform:translate(780px,-400px);}
+     	70%{transform:translate(790px,-480px);opacity: 80%;}
+     	100%{transform: translate(500px,-540px) scale(0.5);opacity: 0;}
+     }
+     @keyframes moveout3{
+     	0%{transform:translate(810px,-150px);}
+     	40%{transform:translate(705px,-220px);}
+     	
+     	50%{transform:translate(745px,-280px) ;}
+     	70%{transform:translate(755px,-360px);opacity: 80%;}
+     	100%{transform:translate(465px,-420px) scale(0.5) ;opacity: 0;}
+     }
+     @keyframes moveout4{
+      	0% {opacity: 0; }
+      	90%{opacity: 0;}
+	100% {opacity: 1;}
+			</style>
+			
+	</head>
+	<body>
+			
+		<div id="p1">	<img src="img/river.png" /></div>
+		<div id="p3">	<img src="img/chuan.png" width="7%" height="7%"/></div>
+		<div id="p2">	<img src="img/ren.png" width="3%" height="3%"/></div>
+		<div id="p4">	<img src="img/sywenzi.png" width="10%" height="10%"/></div>
+		<a href="https://yueee233.github.io/wancheng003/">点击进入</a>
+		
+		
+	</body>
+	
+</html>
